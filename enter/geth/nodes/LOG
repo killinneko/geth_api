@@ -1,0 +1,37 @@
+=============== Jan 24, 2023 (JST) ===============
+00:10:38.483990 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+00:10:38.490438 db@open opening
+00:10:38.490934 version@stat F·[] S·0B[] Sc·[]
+00:10:38.492450 db@janitor F·2 G·0
+00:10:38.492450 db@open done T·2.0124ms
+00:12:38.664199 db@close closing
+00:12:38.665112 db@close done T·912.9µs
+=============== Jan 24, 2023 (JST) ===============
+00:12:48.582045 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+00:12:48.582541 version@stat F·[] S·0B[] Sc·[]
+00:12:48.582541 db@open opening
+00:12:48.582541 journal@recovery F·1
+00:12:48.584029 journal@recovery recovering @1
+00:12:48.587501 memdb@flush created L0@2 N·683 S·21KiB "loc..seq,v4":"version,v1"
+00:12:48.588989 version@stat F·[1] S·21KiB[21KiB] Sc·[0.25]
+00:12:48.598413 db@janitor F·3 G·0
+00:12:48.598413 db@open done T·15.8724ms
+00:13:21.260235 db@close closing
+00:13:21.260769 db@close done T·533.5µs
+=============== Jan 24, 2023 (JST) ===============
+00:13:43.782975 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+00:13:43.783470 version@stat F·[1] S·21KiB[21KiB] Sc·[0.25]
+00:13:43.783470 db@open opening
+00:13:43.783966 journal@recovery F·1
+00:13:43.784462 journal@recovery recovering @3
+00:13:43.788434 memdb@flush created L0@5 N·250 S·8KiB "loc..seq,v686":"n:\xff..ing,v691"
+00:13:43.789919 version@stat F·[2] S·29KiB[29KiB] Sc·[0.50]
+00:13:43.800335 db@janitor F·4 G·0
+00:13:43.800335 db@open done T·16.8644ms
+00:13:47.739357 table@compaction L0·2 -> L1·0 S·29KiB Q·975
+00:13:47.742334 table@build created L1@8 N·826 S·27KiB "loc..seq,v686":"version,v1"
+00:13:47.742334 version@stat F·[0 1] S·27KiB[0B 27KiB] Sc·[0.00 0.00]
+00:13:47.744813 table@compaction committed F-1 S-1KiB Ke·0 D·107 T·5.4564ms
+00:13:47.745806 table@remove removed @2
+00:16:10.986761 db@close closing
+00:16:10.987234 db@close done T·472.5µs
